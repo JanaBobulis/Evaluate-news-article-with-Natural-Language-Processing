@@ -27,10 +27,6 @@ app.get('/', function (req, res) {
     //res.sendFile(path.resolve('src/client/views/index.html'))
 })
 
-//app.get('/test', function (req, res) {
-//    res.send(mockAPIResponse)
-//})
-
 // designates what port the app will listen to for incoming requests
 app.listen(process.env.PORT || 8083, function () {
     console.log('Example app listening on port 8083!')
@@ -44,9 +40,6 @@ console.log(`API key: ${API_KEY}`)
 
 //POST request
 app.post('/test', async (req, res) => {
-    //if (Validation.isURL(req.body.input)) {
-    //    reqType = 'url';
-    //} 
     urlEntry = req.body.url;
     const response = await fetch (`${baseUrl}${API_KEY}&of=json&txt&model=general&lang=en&url=${req.body.url}`);
     console.log('server response: ', response)
