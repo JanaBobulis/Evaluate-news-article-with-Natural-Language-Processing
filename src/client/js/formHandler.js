@@ -1,8 +1,6 @@
 //import fetch from "node-fetch"
-//import { resolve } from "dns";
 
 const { urlChecker } = require("./urlChecker");
-//import { urlChecker } = from './urlChecker.js';
 
 function handleSubmit(event) {
     event.preventDefault();
