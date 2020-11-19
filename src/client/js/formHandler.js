@@ -1,5 +1,3 @@
-//import fetch from "node-fetch"
-
 const { urlChecker } = require("./urlChecker");
 
 function handleSubmit(event) {
@@ -25,7 +23,6 @@ const postData = async(url ='') => {
             method: 'POST',
             mode: 'cors',
             credentials: 'same-origin',
-            //cache: "no-cache",
             headers: {
                 'Content-Type': 'application/json',
                 //'Accept': 'application/json'
