@@ -24,7 +24,7 @@ Sign up for an API key. Once creating an account with MeaningCloud, licence key 
 ```
 npm install dotenev
 ```
-2.Create a new ```env``` file in the root of the project nd will the file with the API key: 
+2.Create a new ```env``` file in the root of the project and fill the file with the API key: 
 ```
 API_ID=************************(your API key instead of *)
 ```
