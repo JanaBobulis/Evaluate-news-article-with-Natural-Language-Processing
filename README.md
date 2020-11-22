@@ -18,7 +18,8 @@ npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 ```
 ### Set up the API 
 I am using MeaningCloud Sentiment Analysis API for this project. 
-Sign up for an API key. Once creating an account with MeaningCloud, licence key will be given to start using the API. 
+Sign up for an API key. Once creating an account with MeaningCloud, licence key will be given to start using the API.
+
 1.To configure environment variables (variables thats only belong to local system) we need to install dotenv package: 
 ```
 npm install dotenev
