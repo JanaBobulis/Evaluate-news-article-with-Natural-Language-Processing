@@ -29,6 +29,7 @@ npm install dotenev
 API_ID=************************(your API key instead of *)
 ```
 3.To refer ennvironmental variable I am using process.enc. in front of the variable with API credentials. 
+
 4.Create .gitignore file in the project root and add .env file. This will allow us not to push our environmental variables to Github. API key is personal!
 
 ### Using the API
