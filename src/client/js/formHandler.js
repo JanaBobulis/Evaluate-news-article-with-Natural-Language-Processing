@@ -25,7 +25,6 @@ const postData = async(url ='') => {
             credentials: 'same-origin',
             headers: {
                 'Content-Type': 'application/json',
-                //'Accept': 'application/json'
             },
             body: JSON.stringify( {"url": url }),
         });
