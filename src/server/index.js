@@ -1,8 +1,6 @@
-const path = require('path');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const fetch = require("node-fetch");
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 const app = express();
