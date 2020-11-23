@@ -1,4 +1,4 @@
-import { app } from '../src/server/route' //link to server index.js
+import { app } from '../src/server/route'
 const supertest = require('supertest');
 const request = supertest(app); //provide a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by superagent.
 
