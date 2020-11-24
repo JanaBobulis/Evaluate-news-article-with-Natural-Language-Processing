@@ -15,6 +15,8 @@ function handleSubmit(event) {
         document.getElementById('subjectivity').innerHTML = `Subjectivity: ${res.subjectivity}`;
         document.getElementById('polarity').innerHTML = `Polarity: ${res.score_tag}`;
     })
+  } else {
+    alert = "URL not valid";
 }
 }
 
