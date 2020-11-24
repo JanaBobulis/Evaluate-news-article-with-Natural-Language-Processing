@@ -9,7 +9,7 @@ console.log(`API key: ${API_KEY}`)
 
 //display of UI
 app.get("/", function (req, res) {
-  res.status(200).sendFile("dist/index.html");
+  res.status(200).sendFile(path.resolve("dist/index.html"));
 });
 
 //POST request
@@ -29,4 +29,4 @@ app.post("/test", async (req, res) => {
    console.log(projectData);
   });
 
-module.exports = {app};
+module.exports = app;
