@@ -14,11 +14,8 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use('/', route);
 
-const route = require('./route');
-
 // designates what port the app will listen to for incoming requests
-module.exports = app.listen(process.env.PORT || 8083, function () {
+module.exports = app.listen(process.env.PORT || 8083, () => {
     console.log('Example app listening on port 8083!')
 })
-
 
