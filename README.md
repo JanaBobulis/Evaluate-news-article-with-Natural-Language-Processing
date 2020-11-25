@@ -3,6 +3,10 @@
 This project is a web tool that allows users to run Natural Languange Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to undestand the human language, written or oral. 
 This project is used with external API called MeaningCloud. 
 
+## How it works
+
+![](ezgif.com-video-to-gif-12.gif)
+
 ### Getting Started 
 
 Fork the projet Github repo and install the following loaders and plugins: 
