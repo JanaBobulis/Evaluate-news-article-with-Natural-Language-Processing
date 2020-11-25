@@ -20,7 +20,7 @@ function handleSubmit(event) {
 }
 }
 
-const postData = async(url ="") => {
+const postData = async(url ='') => {
     const response = await fetch('http://localhost:8083/test', {
             method: 'POST',
             mode: 'cors',
@@ -28,7 +28,7 @@ const postData = async(url ="") => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify( {"url": url }),
+            body: JSON.stringify( {'url': url }),
         });
 
         try {
@@ -36,7 +36,7 @@ const postData = async(url ="") => {
             console.log(newData);
             return newData;
         } catch (error) {
-            console.log("error", error);
+            console.log('error', error);
         }
 }
 
