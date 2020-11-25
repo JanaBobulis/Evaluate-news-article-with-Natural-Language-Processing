@@ -5,7 +5,7 @@ This project is used with external API called MeaningCloud.
 
 ## How it works
 
-![](ezgif.com-video-to-gif-12.gif)
+![ezgif com-video-to-gif-12](https://user-images.githubusercontent.com/71527795/100224442-bce66800-2f14-11eb-9b41-c5506d4f492c.gif)
 
 ### Getting Started 
 
