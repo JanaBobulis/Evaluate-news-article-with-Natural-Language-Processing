@@ -5,8 +5,8 @@ const fetch = require('node-fetch');
 const dotenv = require('dotenv');
 dotenv.config();
 
-let baseUrl = 'https://api.meaningcloud.com/sentiment-2.1?key=';
-let API_KEY = process.env.API_KEY;
+const baseUrl = 'https://api.meaningcloud.com/sentiment-2.1?key=';
+const API_KEY = process.env.API_KEY;
 console.log(`API key: ${API_KEY}`)
 
 //display of UI
