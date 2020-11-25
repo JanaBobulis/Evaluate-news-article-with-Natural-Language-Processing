@@ -1,4 +1,4 @@
-const { urlChecker } = require("./urlChecker");
+const { urlChecker } = require('./urlChecker');
 
 function handleSubmit(event) {
     event.preventDefault();
@@ -16,11 +16,11 @@ function handleSubmit(event) {
         document.getElementById('polarity').innerHTML = `Polarity: ${res.score_tag}`;
     })
   } else {
-    alert = "URL not valid";
+    alert = "Please enter valid URL";
 }
 }
 
-const postData = async(url ='') => {
+const postData = async(url ="") => {
     const response = await fetch('http://localhost:8083/test', {
             method: 'POST',
             mode: 'cors',
